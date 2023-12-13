@@ -1,0 +1,127 @@
+/* Navbar CSS */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Aligns items vertically center */
+  align-items: center; /* Aligns items horizontally center */
+  background-color: #f8f9fa;
+  border-right: 1px solid #e7e7e7;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px; /* Width of the sidebar */
+  z-index: 1000;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+/* Reset the padding for li and ensure text is centered */
+nav ul li {
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+/* Ensure text in a is centered and has full width */
+nav ul li a {
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #333;
+  display: block;
+  text-align: center; 
+  width: 100%; 
+}
+
+/* Add Effect when button is hovered */
+nav ul li a:hover {
+  color: #f1f1f1;
+  background-color: #555;
+}
+
+/* Ensure that all elements within nav have no margin or padding */
+nav, nav * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures that padding does not add to the width */
+}
+
+/* Ensure the image is centered */
+.profile-image {
+  display: block; 
+  margin: 0 auto 20px;
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+}
+/* End of Navbar CSS */
+
+/* About Section CSS */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: flex-start; /* Align content to the start (left) */
+  height: 100vh; /* Make it full height of the viewport */
+  text-align: left; /* Align text to the left */
+  padding-left: 40px; /* Left padding to not stick to the edge */
+  box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+#about h1 {
+  font-size: 4.5em; /* Large font size for the name */
+  margin: 0; /* Remove space below the name */
+  line-height: 1; /* Adjust line height to bring h1 and h3 closer */
+}
+
+#about h3 {
+  font-size: 2em; /* Medium font size for the title */
+  margin-top: 0.2em; /* Small space above the title */
+  margin-bottom: 1em; /* Space below the title */
+}
+
+#about p {
+  font-size: 1em; /* Standard font size for the paragraph */
+  max-width: 600px; /* Maximum width of the paragraph */
+  margin-top: 0; /* Remove space above the paragraph */
+  margin-bottom: 20px; /* Space below the paragraph, adjust as needed */
+}
+
+.icons {
+  display: flex; /* Aligns the icons in a row */
+  justify-content: start; /* Aligns icons to the start of the div */
+  gap: 1.5rem; /* Adjust the space between icons */
+}
+
+.icons a {
+  color: inherit; /* Inherits the color, you can set this to black or any color */
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: gray
+}
+
+.icons i {
+  font-size: 2.5rem; /* Adjust icon size as needed */
+  vertical-align: middle; /* Aligns icons vertically */
+}
+
+
+/* End of About Section CSS */
+
+  
+/* Adjust the body content padding/margin to avoid being hidden by the navbar */
+body {
+margin-left: 270px; /* Adjusted to the width of the sidebar plus some extra */
+padding: 20px;
+}

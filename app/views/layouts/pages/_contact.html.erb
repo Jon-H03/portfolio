@@ -1,0 +1,25 @@
+<!-- Contact -->
+
+<h2>Contact Me</h2>
+<p>If you have any questions or would like to get in touch, please fill out the form below:</p>
+
+<%= form_with url: contact_path, local: true do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, required: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.email_field :email, required: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :message %>
+    <%= form.text_area :message, required: true %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Send Message" %>
+  </div>
+<% end %>
