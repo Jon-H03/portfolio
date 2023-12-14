@@ -257,6 +257,30 @@ nav, nav * {
 
 /* End of Experience Section */
 
+/* Skills Section */
+#skills h2 {
+  font-size: 2.5em;
+}
+
+#skills h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  margin-right: 15px; /* Spacing between items */
+  margin-bottom: 10px; /* Spacing between lines if they wrap */
+}
+
+/* End of Skills Section */
+
 
 
   
