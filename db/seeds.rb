@@ -15,24 +15,28 @@ Project.delete_all
 Project.create([
   {
     title: "Strava Stats For Runners",
+    category: "Web Application",
     about: "A web application offering detailed analysis of Strava runs with features like OAuth integration, interactive maps, and comprehensive statistics.",
     github_link: "https://github.com/Jon-H03/StravaStats",
     technologies: "Ptyhon, React, Flask, AWS S3, AWS Elastic Beanstalk, HTML, CSS"
   },
   {
     title: "Teacher's Pet",
-    about: "A Discord bot developed for the OSU Fall 2023 Beaverhacks Hackathon. Secured second place with a focus on enhancing classroom functions.",
+    category: "Discord Bot",
+    about: "OSU Fall 2023 Beaverhacks education-themed submission. Secured second place with a focus on enhancing classroom functions.",
     github_link: "https://github.com/Jon-H03/TeachersPet",
     technologies: "Python, Discord API, Google Cloud Platform"
   },
   {
     title: "Genre Classification with ML",
+    category: "Machine Learning",
     about: "A PyTorch-based machine learning project for classifying music genres, featuring extensive data preprocessing and a multi-layered model.",
     github_link: "https://github.com/Jon-H03/Genre-Classification-w-ML",
     technologies: "Python, PyTorch, Pandas, scikit-learn"
   },
   {
     title: "Groovy - Music Database for Enthusiasts",
+    category: "Full-Stack Web Application",
     about: "A full-stack web application for cataloging favorite music entities such as songs, albums, and artists with a comprehensive feature set.",
     github_link: "https://github.com/Jon-H03/GroovyDB",
     technologies: "JavaScript, Node.js, Express.js, MySQL, HTML, CSS"
