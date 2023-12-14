@@ -118,6 +118,45 @@ nav, nav * {
 
 /* End of About Section CSS */
 
+/* Projects Section CSS */
+.project {
+  margin-bottom: 40px; /* Space between projects */
+}
+
+.project h3 {
+  font-size: 1.5em; /* Adjust the size as needed */
+}
+
+.project h4 {
+  font-size: 1.2em;
+  color: #666; /* Subdued color for categories */
+}
+
+.project h5 {
+  font-size: 1em;
+  color: #666; /* Subdued color for technologies */
+  margin-bottom: 20px;
+}
+
+.project p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.github-link {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  background-color: #0056b3;
+}
+
+/* End of Projects Section CSS */
+
   
 /* Adjust the body content padding/margin to avoid being hidden by the navbar */
 body {
