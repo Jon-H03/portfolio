@@ -176,14 +176,14 @@ nav, nav * {
 }
 
 #education li:first-of-type {
-  padding-bottom: 1.5em; /* Additional padding for the first degree */
+  padding-bottom: 1.5em; 
 }
 
 #education li:last-of-type {
-  padding-bottom: 30em; /* A lot more padding for the last degree */
+  padding-bottom: 30em; 
 }
 
-.degree-container {
+.degree {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -211,9 +211,54 @@ nav, nav * {
   margin: .25em;
 }
 
-
-
 /* End of Education Section */ 
+
+/* Experience Section */
+#experience .experience-item {
+  margin-bottom: 3em;
+}
+
+#experience .experience-item:last-of-type {
+  padding-bottom: 30em; 
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#experience h2 {
+  font-size: 2.5em;
+}
+
+#experience h3 {
+  margin: 0;
+}
+
+#experience h4 {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+#experience .date {
+  font-style: italic;
+}
+
+#experience ul {
+  list-style-type: disc;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#experience li {
+  margin-bottom: 0.75em;
+}
+
+/* End of Experience Section */
+
+
+
   
 /* Adjust the body content padding/margin to avoid being hidden by the navbar */
 body {
