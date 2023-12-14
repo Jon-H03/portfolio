@@ -125,7 +125,7 @@ nav, nav * {
 }
 
 .project:last-of-type {
-  padding-bottom: 10em; 
+  padding-bottom: 30em; 
 }
 
 .project h3 {
@@ -165,6 +165,55 @@ nav, nav * {
 
 /* End of Projects Section CSS */
 
+/* Education Section */ 
+#education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 20px;
+}
+
+#education li:first-of-type {
+  padding-bottom: 1.5em; /* Additional padding for the first degree */
+}
+
+#education li:last-of-type {
+  padding-bottom: 30em; /* A lot more padding for the last degree */
+}
+
+.degree-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#education h2 {
+  font-size: 2.5em;
+}
+
+#education h3 {
+  margin: 0;
+}
+
+#education h4 {
+  font-weight: normal;
+  margin-top: 5px;
+  
+}
+
+#education .date {
+  font-style: italic;
+}
+
+#education p {
+  margin: .25em;
+}
+
+
+
+/* End of Education Section */ 
   
 /* Adjust the body content padding/margin to avoid being hidden by the navbar */
 body {
