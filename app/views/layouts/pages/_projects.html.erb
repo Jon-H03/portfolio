@@ -1,13 +1,12 @@
 <!-- Projects -->
-
 <h2>Projects</h2>
+
 <% @projects.each do |project| %>
   <div class="project">
     <h3><%= project.title %></h3>
+    <h4>Category: <%= project.category %></h4>
+    <h5>Technologies: <%= project.technologies %></h5>
     <p><%= project.about %></p>
-    <%= link_to 'GitHub', project.github_link, target: '_blank' %>
-    <% if project.image_url.present? %>
-      <%= image_tag project.image_url, alt: project.title %>
-    <% end %>
+    <%= link_to 'GitHub', project.github_link, target: '_blank', class: 'github-link' %>
   </div>
 <% end %>
