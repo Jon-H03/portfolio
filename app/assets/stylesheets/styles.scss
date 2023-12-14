@@ -119,23 +119,31 @@ nav, nav * {
 /* End of About Section CSS */
 
 /* Projects Section CSS */
-.project {
-  margin-bottom: 40px; /* Space between projects */
+.projects-header {
+  font-size: 2.5em; 
+  padding-bottom: 0;
+}
+
+.project:last-of-type {
+  padding-bottom: 10em; 
 }
 
 .project h3 {
-  font-size: 1.5em; /* Adjust the size as needed */
+  font-size: 1.5em;
+  margin-bottom: 0em; 
 }
 
 .project h4 {
-  font-size: 1.2em;
-  color: #666; /* Subdued color for categories */
+  font-size: 1em; 
+  color: #666;
+  margin-top: 0em;
+  margin-bottom: 0.5em; /* Reduced bottom margin for category */
 }
 
 .project h5 {
-  font-size: 1em;
-  color: #666; /* Subdued color for technologies */
-  margin-bottom: 20px;
+  font-size: 1em; 
+  color: #666;
+  margin-top: 0em; /* No additional top margin for technologies */
 }
 
 .project p {
@@ -143,16 +151,16 @@ nav, nav * {
   margin-bottom: 20px;
 }
 
-.github-link {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
+.github-icon {
+  display: inline-block;
+  background-color: transparent;
+  color: #007bff;
+  font-size: 2.5rem; /* Size of the GitHub icon */
+  margin-top: 10px;
 }
 
-.github-link:hover {
-  background-color: #0056b3;
+.github-icon:hover {
+  color: #0056b3;
 }
 
 /* End of Projects Section CSS */
