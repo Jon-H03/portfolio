@@ -137,13 +137,13 @@ nav, nav * {
   font-size: 1em; 
   color: #666;
   margin-top: 0em;
-  margin-bottom: 0.5em; /* Reduced bottom margin for category */
+  margin-bottom: 0.5em; 
 }
 
 .project h5 {
   font-size: 1em; 
   color: #666;
-  margin-top: 0em; /* No additional top margin for technologies */
+  margin-top: 0em; 
 }
 
 .project p {
@@ -151,15 +151,16 @@ nav, nav * {
   margin-bottom: 20px;
 }
 
-.github-icon {
+.icon {
   display: inline-block;
   background-color: transparent;
   color: #007bff;
-  font-size: 2.5rem; /* Size of the GitHub icon */
+  font-size: 2.5rem; 
   margin-top: 10px;
+  margin-right: 10px;
 }
 
-.github-icon:hover {
+.icon:hover {
   color: #0056b3;
 }
 
@@ -275,8 +276,12 @@ nav, nav * {
 }
 
 .skills-list li {
-  margin-right: 15px; /* Spacing between items */
-  margin-bottom: 10px; /* Spacing between lines if they wrap */
+  margin-right: 15px; 
+  margin-bottom: 10px;
+}
+
+#skills .skills-list:last-of-type {
+  padding-bottom: 30em; 
 }
 
 /* End of Skills Section */
@@ -288,4 +293,5 @@ nav, nav * {
 body {
 margin-left: 270px; 
 padding: 20px;
+font-family: 'Heebo', sans-serif;
 }

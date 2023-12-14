@@ -7,8 +7,15 @@
     <h4><%= project.category %></h4>
     <h5>Technologies: <%= project.technologies %></h5>
     <p><%= project.about %></p>
-    <%= link_to project.github_link, target: '_blank', class: 'github-icon' do %>
+    
+    <%= link_to project.github_link, target: '_blank', class: 'icon' do %>
       <i class="fab fa-github"></i>
     <% end %>
+
+    <% if project.category == "Discord Bot" %>
+  <%= link_to 'https://discord.com/oauth2/authorize?client_id=1165348561970528426&permissions=275146599504&scope=bot', target: '_blank', class: 'icon' do %>
+    <i class="fa-brands fa-discord"></i>
+  <% end %>
+<% end %>
   </div>
 <% end %>
