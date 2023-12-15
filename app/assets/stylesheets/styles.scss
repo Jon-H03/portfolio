@@ -90,7 +90,6 @@ nav, nav * {
 
 #about p {
   font-size: 1em; 
-   
   margin-top: 0; 
   margin-bottom: 20px; 
 }
@@ -298,4 +297,13 @@ body {
   background: linear-gradient(180deg, rgba(234,239,255,1) 0%, rgba(255,255,255,1) 50%, rgba(234,239,243,1) 100%);;
 }
 
-
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  nav {
+      display: none;
+  }
+  body {
+    margin-left: 0; 
+    padding: 25px;
+}
+}
