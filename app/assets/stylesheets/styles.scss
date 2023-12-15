@@ -90,7 +90,7 @@ nav, nav * {
 
 #about p {
   font-size: 1em; 
-  max-width: 600px; 
+   
   margin-top: 0; 
   margin-bottom: 20px; 
 }
@@ -291,9 +291,11 @@ nav, nav * {
   
 /* Adjust the body content padding/margin to avoid being hidden by the navbar */
 body {
-margin-left: 270px; 
-padding: 20px;
-font-family: 'Heebo', sans-serif;
+  margin-left: 270px; 
+  padding: 20px;
+  font-family: 'Heebo', sans-serif;
+  background: rgb(234,239,243);
+  background: linear-gradient(180deg, rgba(234,239,255,1) 0%, rgba(255,255,255,1) 50%, rgba(234,239,243,1) 100%);;
 }
 
 
