@@ -285,6 +285,54 @@ nav, nav * {
 
 /* End of Skills Section */
 
+/* Ceritifications Section */ 
+#certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#certifications li {
+  margin-bottom: 20px;
+}
+
+#certifications li:first-of-type {
+  padding-bottom: 1.5em; 
+}
+
+#certifications li:last-of-type {
+  padding-bottom: 30em; 
+}
+
+.degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#certifications h2 {
+  font-size: 2.5em;
+}
+
+#certifications h3 {
+  margin: 0;
+}
+
+#certifications h4 {
+  font-weight: normal;
+  margin-top: 5px;
+  
+}
+
+#certifications .date {
+  font-style: italic;
+}
+
+#certifications p {
+  margin: .25em;
+}
+
+/* End of Certification Section */ 
+
 
 
   
